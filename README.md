@@ -1,6 +1,6 @@
 # Depression Polymethylation Score
 
-This repository contains scripts for the derivation of depression polymethylation scores using BioMM.
+This repository contains scripts for the derivation of depression polymethylation scores using BioMM. This project is a collaboration between COMMITMENT and the EarlyCause consortium.
 
 Data:
 - ALSPAC children (phenotypic and genome-wide DNAm data)
