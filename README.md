@@ -18,4 +18,4 @@ Scripts:
 6. '5.BioMM_DNAm_17y_SMFQ_17.5y.R' derives the polymethylation score (PMS) for depression and identifies implicated biological pathways.  the analysis on continuous SMFQ variable.
 
 
-Acknowledgements: This project is a collaboration between COMMITMENT and the EarlyCause consortium.
+This project is a collaboration between COMMITMENT and the EarlyCause consortium.
