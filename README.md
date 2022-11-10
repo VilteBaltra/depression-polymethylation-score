@@ -1,6 +1,6 @@
 # Depression Polymethylation Score
 
-This repository contains scripts for the derivation of depression polymethylation scores using BioMM. This project is a collaboration between COMMITMENT and the EarlyCause consortium.
+This repository contains scripts for the derivation of depression polymethylation scores using BioMM. 
 
 Data:
 - ALSPAC children (phenotypic and genome-wide DNAm data)
@@ -16,3 +16,6 @@ Scripts:
 4. '3.residualise_imp_data.R' regresses sex, age, cell type and 10 SVs from imputed DNAm data (beta_mean_imputed_20221108.rds) and saves regressed output in 'df.residuals_imp_data_20221108.rds'.
 5. '4.format_data_forBioMM.R' formats data for BioMM and saves it as 'methylData_residualised.imputed.forBioMM_20221108.rds'.
 6. '5.BioMM_DNAm_17y_SMFQ_17.5y.R' derives the polymethylation score (PMS) for depression and identifies implicated biological pathways.  the analysis on continuous SMFQ variable.
+
+
+Acknowledgements: This project is a collaboration between COMMITMENT and the EarlyCause consortium.
