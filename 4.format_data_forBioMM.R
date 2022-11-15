@@ -21,7 +21,14 @@ beta_imp <- readRDS(paste0(output, 'df.residuals_imp_data_nosexmismatch_20221108
 pheno <- readRDS(paste0(output, 'pheno_SVs_20221108.rds')) # this will have 3 more individuals than beta_imp, 
 # as in beta_imp sex mismatches were removed
 
-# check dimentions
+# remove second-born siblings (mult == 1)
+summary(as.factor(pheno$mult))
+pheno <- pheno %>% filter(mult %in% c(0, NA))
+
+# check dimentions of pheno data without siblings
+dim(pheno)
+summary(as.factor(pheno$mult))
+# check dimentions of meth data
 dim(beta_imp)
 head(beta_imp[,1:4])
 
