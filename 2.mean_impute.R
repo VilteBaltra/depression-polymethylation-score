@@ -36,6 +36,8 @@ for (i in row.names(beta)) {
   beta$miss_cpg[val] <- percent_missing(beta[i,])
   val=val+1
 }
+# could try doing for ( i in 1:length(nrow(beta))){} and index by row that way 
+# to avoid the need for the val variable
 
 # per individual
 IDs <- names(beta) 
